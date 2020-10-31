@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router()
 
-var count = 0;
+let count = 0;
 router.post('/', (req, res) => {
   const {data} = req.body
 
